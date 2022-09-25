@@ -29,7 +29,7 @@ function App() {
   }
 
   return (
-    <div style={{background: `url(${bluepurplespace})`, backgroundSize: 'cover'}}>
+    <div className='app'>
       <Header currentNav={currentNav} setCurrentNav={setCurrentNav} />
       <main>
         {renderComponent(currentNav)}
