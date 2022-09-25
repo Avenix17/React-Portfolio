@@ -4,7 +4,6 @@ function Header(props) {
     const { currentNav, setCurrentNav } = props;
     return (
         <header>
-
             <Navigation currentNav={currentNav} setCurrentNav={setCurrentNav}/>
         </header>
     );
