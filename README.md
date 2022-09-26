@@ -6,10 +6,14 @@ This repository is for a professional portfolio created for me, Avyrie Fellows.
 
 ## Link to Deployed Application
 
-[React Professional Portfolio]()
+[React Professional Portfolio](https://avenix17.github.io/React-Portfolio/)
 
 ## Screenshots
 
+![About page](/images/aboutme.JPG)
+![Portfolio page](/images/portfolio.JPG)
+![Contact page](/images/contact.JPG)
+![Resume page](/images/resume.JPG)
 
 ## Change Log
 
