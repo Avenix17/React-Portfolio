@@ -144,11 +144,6 @@ h2 {
   justify-content: space-evenly !important;
 }
 
-
-div.card {
-  margin-left: 5px !important;
-}
-
 .customCard {
   background-color: black !important;
   min-height: 225px;
@@ -215,4 +210,35 @@ div.card {
 
 label {
   margin-bottom: 5px;
+}
+
+.resume {
+  text-align: left;
+  margin-bottom: 85px;
+  color: white;
+}
+
+.contact {
+  text-align: center;
+  margin: 15px;
+}
+
+.download-resume {
+  text-align: center;
+}
+
+.resume-elements {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.resume h3 {
+  border-bottom: solid 5px var(--blehpurple);
+  color: #e118b5;
+}
+
+.resume .card {
+  background-color: #2f1e68bb;
 }
