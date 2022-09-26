@@ -5,7 +5,6 @@ import Project from './components/Project';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import bluepurplespace from './assets/bluepurplespace.jpg'
 import './App.css';
 
 function App() {

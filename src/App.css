@@ -146,12 +146,10 @@ h2 {
 
 
 div.card {
-  /* width: 45% !important; */
   margin-left: 5px !important;
 }
 
 .customCard {
-  /* position: relative; */
   background-color: black !important;
   min-height: 225px;
   width: auto;
@@ -181,7 +179,7 @@ div.card {
   text-align: center;
   border-radius: 15px;
   width: 60%;
-  color: var(--pinkpurp);
+  color: #c4169e;
   background-color: var(--purpblue);
 }
 
@@ -195,4 +193,26 @@ div.card {
 
 .customCard:hover .cardInfo {
   opacity: 1;
+}
+
+.contact-me {
+  background-color: #2f1e68aa;
+  color: #e118b5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+label {
+  margin-bottom: 5px;
 }
