@@ -77,6 +77,12 @@ footer {
   margin-right: 10px;
 }
 
+.twitter {
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .about-me {
   display: flex;
   flex-direction: row;
