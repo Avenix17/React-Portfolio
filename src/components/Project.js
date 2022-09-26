@@ -1,6 +1,9 @@
 import MovieSearch from '../assets/MovieSearch.JPG';
 import ReadIt from '../assets/ReadIt.JPG';
-
+import PasswordGenerator from '../assets/PasswordGenerator.JPG';
+import welcomePage from '../assets/welcomepage.JPG';
+import webTextEditor from '../assets/webtexteditor.JPG';
+import teamProfileGenerator from '../assets/teamprofilegenerator.JPG';
 
 function Project() {
 
@@ -22,11 +25,43 @@ function Project() {
             gitHubRepo: 'https://github.com/Avenix17/Group-Project-2-ReadIt',
             deployed: 'https://stormy-chamber-61658.herokuapp.com/'
         },
+        {
+            id: 2,
+            title: 'Password Generator',
+            img: PasswordGenerator,
+            description: 'An application that allows to you generate passwords.',
+            gitHubRepo: 'https://github.com/Avenix17/Password-Generator',
+            deployed: 'https://avenix17.github.io/Password-Generator/Develop/'
+        },
+        {
+            id: 3,
+            title: 'Note Taker',
+            img: welcomePage,
+            description: 'An application where you can take notes!',
+            gitHubRepo: 'https://github.com/Avenix17/Note-Taker',
+            deployed: 'https://intense-springs-99633.herokuapp.com/'
+        },
+        {
+            id: 4,
+            title: 'Text Editor',
+            img: webTextEditor,
+            description: 'An application that allows users to take notes or write code on and offline!',
+            gitHubRepo: 'https://github.com/Avenix17/Text-Editor',
+            deployed: 'https://guarded-ridge-10827.herokuapp.com/'
+        },
+        {
+            id: 5,
+            title: 'Team Profile Generator',
+            img: teamProfileGenerator,
+            description: 'A Node.js command-line application that allows users to build teams for jobs.',
+            gitHubRepo: 'https://github.com/Avenix17/Team-Profile-Generator',
+            deployed: null
+        }
     ]
 
     return (
         <section>
-            <h1>Check out some of my work!</h1>
+            <h2>Examples of my work!</h2>
             <div className='container'>
                 <div className='app-list'>
                     {portfolioList.map((project) => (

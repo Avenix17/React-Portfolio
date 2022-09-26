@@ -2,7 +2,7 @@
 function Navigation(props) {
     const { currentNav, setCurrentNav } = props;
     return (
-        <ul>
+        <ul className="btn-list">
             <button className={`btn btn-dark ${currentNav === 'about' && 'btn-active'}`} onClick={() => setCurrentNav('about')}>About Me</button>
             <button className={`btn btn-dark ${currentNav === 'portfolio' && 'btn-active'}`} onClick={() => setCurrentNav('portfolio')}>Portfolio</button>
             <button className={`btn btn-dark ${currentNav === 'contact' && 'btn-active'}`} onClick={() => setCurrentNav('contact')}>Contact</button>

@@ -19,8 +19,9 @@
 }
 
 header {
+  margin-top: 0px !important;
   padding: 10px;
-  background-color: var(--purpblue);
+  background-color: #321b4cbb;
   border-bottom: 5px solid var(--blehpurple);
 }
 
@@ -33,7 +34,10 @@ header {
 
 button {
   background-color: var(--pinkpurp) !important;
-  margin: 10px !important;
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  padding: 10px !important;
 }
 
 button:hover {
@@ -44,14 +48,34 @@ button:hover {
   opacity: 60%;
 }
 
+.btn-list {
+  margin-bottom: 0px !important;
+}
+
 footer {
   bottom: 0px;
   position: fixed;
   width: 100%;
-  height: 5%;
-  text-align: center;
+  height: 10%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #00000099;
 }
 
+.gitHub {
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.linkedIn {
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .about-me {
   display: flex;
@@ -64,13 +88,14 @@ footer {
 }
 
 article {
-  color: var(--pinkpurp);
+  color: #c4169e;
   background-color: black;
   width: 65%;
   padding: 15px;
+  padding-left: 20px;
   padding-right: 45px;
-  border-radius: 5%;
   padding-bottom: 75px;
+  border-radius: 20px;
   text-align: left;
 }
 
@@ -88,12 +113,28 @@ body {
 
 h1 {
   color: white;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-bottom: 0px !important;
+}
+
+h2 {
+  color: white;
+  margin: auto;
+  margin-top: 25px !important;
+  padding: 10px;
+  background-color: #840F6Bbb;
+  text-align: center;
+  width: 400px;
+  border-radius: 20px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center !important;
+  margin-top: 25px;
+  margin-bottom: 75px;
 }
 
 .app-list { 
