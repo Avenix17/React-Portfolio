@@ -8,7 +8,7 @@ function Resume() {
                 <section className="skills card m-2 p-2">
                     <h3>Skills/Proficiencies</h3>
                     <ul>
-                        <li>Javascript, JQuery</li>
+                        <li>Javascript, jQuery</li>
                         <li>HTML/CSS, Bootstrap, Foundation</li>
                         <li>SQL, mySQL, Sequelize</li>
                         <li>Node.js, express.js</li>
