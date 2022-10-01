@@ -4,6 +4,7 @@ import PasswordGenerator from '../assets/PasswordGenerator.JPG';
 import welcomePage from '../assets/welcomepage.JPG';
 import webTextEditor from '../assets/webtexteditor.JPG';
 import teamProfileGenerator from '../assets/teamprofilegenerator.JPG';
+import underatack from '../assets/underatack.JPG';
 
 function Project() {
 
@@ -27,6 +28,14 @@ function Project() {
         },
         {
             id: 2,
+            title: 'Under A-Tack',
+            img: underatack,
+            description: 'A community application to create and view events!',
+            gitHubRepo: 'https://github.com/Avenix17/Project-3-Under-a-tack',
+            deployed: 'https://underatackboard.herokuapp.com/'
+        },
+        {
+            id: 3,
             title: 'Password Generator',
             img: PasswordGenerator,
             description: 'An application that allows to you generate passwords.',
@@ -34,7 +43,7 @@ function Project() {
             deployed: 'https://avenix17.github.io/Password-Generator/Develop/'
         },
         {
-            id: 3,
+            id: 4,
             title: 'Note Taker',
             img: welcomePage,
             description: 'An application where you can take notes!',
@@ -42,7 +51,7 @@ function Project() {
             deployed: 'https://intense-springs-99633.herokuapp.com/'
         },
         {
-            id: 4,
+            id: 5,
             title: 'Text Editor',
             img: webTextEditor,
             description: 'An application that allows users to take notes or write code on and offline!',
@@ -50,7 +59,7 @@ function Project() {
             deployed: 'https://guarded-ridge-10827.herokuapp.com/'
         },
         {
-            id: 5,
+            id: 6,
             title: 'Team Profile Generator',
             img: teamProfileGenerator,
             description: 'A Node.js command-line application that allows users to build teams for jobs.',
