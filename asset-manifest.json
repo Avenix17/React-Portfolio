@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.6d591eef.css",
-    "main.js": "/React-Portfolio/static/js/main.c84354a7.js",
+    "main.js": "/React-Portfolio/static/js/main.60a49e55.js",
     "static/media/bluepurplespace.jpg": "/React-Portfolio/static/media/bluepurplespace.e0817acbf57605ff6f26.jpg",
     "static/media/picome.jpg": "/React-Portfolio/static/media/picome.27df9101101f780faf97.jpg",
     "static/media/ReadIt.JPG": "/React-Portfolio/static/media/ReadIt.cd43b8711fe4338f5f8b.JPG",
+    "static/media/underatack.JPG": "/React-Portfolio/static/media/underatack.968de1f95c4af1569b13.JPG",
     "static/media/MovieSearch.JPG": "/React-Portfolio/static/media/MovieSearch.f95ee8c772c8144c169d.JPG",
     "static/media/teamprofilegenerator.JPG": "/React-Portfolio/static/media/teamprofilegenerator.0b21b2b44eb3fa8ad556.JPG",
     "static/media/welcomepage.JPG": "/React-Portfolio/static/media/welcomepage.9d68d98259c53f6d350f.JPG",
@@ -12,10 +13,10 @@
     "static/media/webtexteditor.JPG": "/React-Portfolio/static/media/webtexteditor.4139c94194d906d9012b.JPG",
     "index.html": "/React-Portfolio/index.html",
     "main.6d591eef.css.map": "/React-Portfolio/static/css/main.6d591eef.css.map",
-    "main.c84354a7.js.map": "/React-Portfolio/static/js/main.c84354a7.js.map"
+    "main.60a49e55.js.map": "/React-Portfolio/static/js/main.60a49e55.js.map"
   },
   "entrypoints": [
     "static/css/main.6d591eef.css",
-    "static/js/main.c84354a7.js"
+    "static/js/main.60a49e55.js"
   ]
 }
