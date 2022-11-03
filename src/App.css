@@ -196,37 +196,36 @@ h2 {
   opacity: 1;
 }
 
-.contact-me {
-  background-color: #2f1e68aa;
-  color: #e118b5;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 15px;
-  margin-top: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
-  text-align: left;
-  border-radius: 5px;
-}
-
-.form-group {
-  margin-top: 10px;
-}
-
-label {
-  margin-bottom: 5px;
-}
-
 .resume {
   text-align: left;
   margin-bottom: 85px;
   color: white;
 }
 
-.contact {
+.contact-info {
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me {
+  align-items: center;
+  color: white;
+  margin: auto;
+  margin-top: 25px !important;
+  padding: 10px;
   text-align: center;
-  margin: 15px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.contact-me p a {
+  text-decoration: none;
+  color: #e118b5;
+}
+
+.contact-me p a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 .view-resume {
@@ -286,15 +285,20 @@ label {
   }
 
   .contact-me {
-    width: 100%;
-    margin: 0%;
-    margin-top: 15px;
-    margin-bottom: 65px;
+    align-items: center;
+    color: white;
+    margin: auto;
+    margin-top: 25px !important;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    border-radius: 20px;
   }
 
 }
 
 @media screen and (max-width: 768px) {
+
   .app,
   .header-info,
   main {
@@ -318,7 +322,9 @@ label {
   }
 
 
-  .customCard{width: 75%;}
+  .customCard {
+    width: 75%;
+  }
 
   .self-picture {
     width: auto;
