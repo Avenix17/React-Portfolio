@@ -2,7 +2,7 @@ import MovieSearch from '../assets/MovieSearch.JPG';
 import ReadIt from '../assets/ReadIt.JPG';
 import PasswordGenerator from '../assets/PasswordGenerator.JPG';
 import welcomePage from '../assets/welcomepage.JPG';
-import webTextEditor from '../assets/webtexteditor.JPG';
+// import webTextEditor from '../assets/webtexteditor.JPG';
 import teamProfileGenerator from '../assets/teamprofilegenerator.JPG';
 import underatack from '../assets/underatack.JPG';
 
@@ -52,14 +52,6 @@ function Project() {
         },
         {
             id: 5,
-            title: 'Text Editor',
-            img: webTextEditor,
-            description: 'An application that allows users to take notes or write code on and offline!',
-            gitHubRepo: 'https://github.com/Avenix17/Text-Editor',
-            deployed: 'https://guarded-ridge-10827.herokuapp.com/'
-        },
-        {
-            id: 6,
             title: 'Team Profile Generator',
             img: teamProfileGenerator,
             description: 'A Node.js command-line application that allows users to build teams for jobs.',
