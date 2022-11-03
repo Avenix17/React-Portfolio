@@ -8,17 +8,15 @@ function Resume() {
                 <section className="skills card m-2 p-2">
                     <h3>Skills/Proficiencies</h3>
                     <ul>
-                        <li>Javascript, jQuery</li>
-                        <li>HTML/CSS, Bootstrap, Foundation</li>
-                        <li>Handlebars.js</li>
-                        <li>SQL, mySQL, Sequelize</li>
-                        <li>Node.js, express.js, Jest</li>
-                        <li>React, Redux, MERN</li>
-                        <li>MongoDB, Mongoose</li>
+                        <li>Languages: Javascript, SQL</li>
+                        <li>Javascript Libraries and Frameworks: JQuery, React, Redux, Sequelize, Express.js, Node.js, Jest, Mongoose, Handlebars.js</li>
+                        <li>Databases: MySQL, MongoDB</li>
+                        <li>HTML/CSS, Bootstrap, Foundation, PWA (Progressive Web Applications)</li>
                         <li>GraphQL</li>
-                        <li>PWA</li>
-                        <li>Heroku, Git/GitHub/GitHub Pages</li>
-                        <li>Insomnia, Visual Studio Code</li>
+                        <li>Git/GitHub/GitHub Pages, Heroku</li>
+                        <li>Visual Studio Code, Insomnia</li>
+                        <li>Familiarity with Agile/SCRUM practices</li>
+                        <li>Microsoft Office, LibreOffice, and Google Sheets, Docs, Presentation, etc.</li>
                     </ul>
                 </section>
                 <section className="education card m-2 p-2">
@@ -26,7 +24,7 @@ function Resume() {
                     <div>
                         <p>University of Utah</p>
                         <ul>
-                            <li>Full Stack Coding Bootcamp Certification</li>
+                            <li>Full Stack Web Development Certification</li>
                         </ul>
                     </div>
                     <div>
