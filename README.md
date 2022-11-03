@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository is for a professional portfolio created for me, Avyrie Fellows.
+This repository is a professional portfolio that was built through React for me, Avyrie Fellows.
 
 ## Link to Deployed Application
 
@@ -10,12 +10,25 @@ This repository is for a professional portfolio created for me, Avyrie Fellows.
 
 ## Screenshots
 
-![About page](/images/aboutme.JPG)
-![Portfolio page](/images/portfolio.JPG)
-![Contact page](/images/contact.JPG)
-![Resume page](/images/resume.JPG)
+![About page](/images/updated-aboutme.JPG)
+![Portfolio page](/images/updated-portfolio.JPG)
+![Resume page](/images/updated-resume.JPG)
+![Contact page](/images/updated-contact.JPG)
 
 ## Change Log
+
+
+### 2022-11-03
+* Updated README
+* Added new README images
+* Finished resume section
+* Edited contact section
+* Changed up resume.js
+* Made application more mobile friendly
+* Added mmore to resume.js
+* Removed tetxt editor project
+* Removed unneeded twitter link
+* Updated About Me
 
 ### 2022-09-26
 * Updated README
