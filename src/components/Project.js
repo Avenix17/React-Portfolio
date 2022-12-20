@@ -16,7 +16,7 @@ function Project() {
             img: MovieSearch,
             description: 'An application meant to make searching for movies easier!',
             gitHubRepo: 'https://github.com/EdwardMock/Group-Project-1-Movie',
-            deployed: 'https://edwardmock.github.io/Group-Project-1-Movie/'
+            deployed: null
         },
         {
             id: 1,
@@ -24,7 +24,7 @@ function Project() {
             img: ReadIt,
             description: 'A social media application where users can share and discuss books.',
             gitHubRepo: 'https://github.com/Avenix17/Group-Project-2-ReadIt',
-            deployed: 'https://stormy-chamber-61658.herokuapp.com/'
+            deployed: null
         },
         {
             id: 2,
@@ -32,7 +32,7 @@ function Project() {
             img: underatack,
             description: 'A community application to create and view events!',
             gitHubRepo: 'https://github.com/Avenix17/Project-3-Under-a-tack',
-            deployed: 'https://underatackboard.herokuapp.com/'
+            deployed: null
         },
         {
             id: 3,
@@ -48,7 +48,7 @@ function Project() {
             img: welcomePage,
             description: 'An application where you can take notes!',
             gitHubRepo: 'https://github.com/Avenix17/Note-Taker',
-            deployed: 'https://intense-springs-99633.herokuapp.com/'
+            deployed: null
         },
         {
             id: 5,
