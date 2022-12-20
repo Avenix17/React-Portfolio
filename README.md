@@ -18,6 +18,9 @@ This repository is a professional portfolio that was built through React for me,
 ## Change Log
 
 
+### 2022-12-20
+* Removed links to live deployments
+
 ### 2022-11-03
 * Updated README
 * Added new README images
